@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-color: rgb(30, 29, 29);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1.5rem;
+        max-width: 700px;
+        font-family: "Inter";
+        color: rgb(237, 237, 237);
+      }
+      .img1 {
+        width: 150px;
+        height: 150px;
+      }
+
+      .img2 {
+        height: 300px;
+        width: 100%;
+      }
+      h2 {
+        margin-bottom: 1rem;
+        margin-top: 2.5rem;
+        font-size: xx-large;
+        font-weight: 900;
+      }
+      p {
+        font-size: large;
+        margin-bottom: 1.5rem;
+      }
+      .hero {
+        display: flex;
+        gap: 2rem;
+      }
+      @media only screen and (max-width: 600px) {
+        .hero {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>
+        Simplified Version of
+        <a target="_blank" href="https://grugbrain.dev/">grugbrain.dev</a>
+      </p>
+      <div class="hero">
+        <div>
+          <img class="img1" src="https://grugbrain.dev/grug.png" alt="grug" />
+        </div>
+        <div>
+          <h1>
+            The Grug Brained Developer A layman's guide to thinking like the
+            self-aware smol brained
+          </h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <h2>Introduction</h2>
+      <p>
+        This collection of thoughts on software development is gathered by Grug,
+        a brainy developer with a penchant for simplicity.
+      </p>
+
+      <p>
+        Grug, while not claiming to be the smartest, has programmed for many
+        long years, accumulating a mix of wisdom and perpetual confusion. In an
+        attempt to distill these learnings into a digestible and humorous
+        format, Grug has created this page. The goal is not just for the benefit
+        of young Grugs but also to serve as a memory aid, given that as Grug
+        gets older, remembering breakfast or whether pants were worn becomes a
+        challenge.
+      </p>
+
+      <p>
+        Big-brained developers are abundant, and not all may appreciate Grug's
+        perspective, resulting in some sour faces. Grug acknowledges that
+        opinions may differ but insists that it's a free country, sort of, and,
+        at the end of the day, the specifics may not matter too much. The hope
+        is that you enjoy reading and perhaps learn from the many mistakes Grug
+        has made over a long programming career.
+      </p>
+
+      <h2>The Eternal Enemy: Complexity</h2>
+      <p>
+        The apex predator of Grug is complexity, and Grug declares, "Complexity
+        bad." Repeating, "Complexity very bad," Grug illustrates the preference
+        for a one-on-one encounter with a T-rex over dealing with complexity.
+        Grug identifies complexity as a spirit demon that infiltrates codebases,
+        often through well-meaning non-Grug-brain developers and project
+        managers.
+      </p>
+
+      <p>
+        Grug emphasizes the dangers of complexity, which can turn a manageable
+        codebase into an incomprehensible maze overnight. Grug advocates for
+        saying "no" as the best weapon against the complexity spirit demon,
+        preventing unnecessary features, abstractions, and other complexities
+        from creeping into the code.
+      </p>
+
+      <h2>Saying No</h2>
+      <p>
+        The best weapon against the complexity spirit demon is the magic word:
+        "no." Grug advises saying "no" to building unnecessary features,
+        abstractions, or succumbing to the pressure of constant change. While
+        "yes" may be a powerful career move, Grug maintains that "no" is the
+        magic Grug word, crucial for maintaining a manageable codebase over the
+        long term.
+      </p>
+
+      <h2>Saying ok</h2>
+      <p>
+        Sometimes compromise is necessary, and Grug recommends saying "ok" in
+        such situations. However, Grug advises careful consideration and
+        recommends building an
+        <a href="https://en.wikipedia.org/wiki/Pareto_principle">80/20</a>
+        solution to the problem, delivering most value while keeping the
+        complexity spirit demon at bay. Grug acknowledges that compromise is
+        sometimes necessary, especially when the alternative means sacrificing
+        essential needs like dinosaur meat for young Grugs at home.
+      </p>
+
+      <h2>Factoring Your Code</h2>
+      <p>
+        Grug emphasizes the importance of breaking the codebase properly (or
+        "factoring your code") but cautions against doing it too early in a
+        project. Grug suggests waiting until the project has taken shape, and
+        cut points naturally emerge from the codebase. Grug advocates for
+        patience and skill development in identifying appropriate cut points,
+        avoiding premature abstractions that may lead to refactor failures.
+      </p>
+
+      <h2>Testing</h2>
+      <p>
+        Grug expresses a love/hate relationship with testing, acknowledging its
+        importance but cautioning against blindly following test shamans. Grug
+        recommends writing tests after the prototype phase when the code has
+        firmed up, with a focus on in-between tests or integration tests that
+        strike a balance between correctness and ease of debugging. Grug
+        emphasizes the value of a well-curated end-to-end test suite for
+        critical features, cautioning against excessive mocking in tests.
+      </p>
+
+      <h2>Agile</h2>
+      <p>
+        Grug shares thoughts on Agile, considering it not terrible but
+        cautioning against the influence of Agile shamans. Grug emphasizes the
+        dangers of blindly following Agile processes without considering
+        practical factors. Grug recommends focusing on prototyping, tools, and
+        hiring good Grugs as keys to successful software development, with Agile
+        serving as a helpful organizational framework but not a silver bullet.
+      </p>
+
+      <h2>Refactoring</h2>
+      <p>
+        While acknowledging the benefits of refactoring, Grug warns against
+        large refactors that can often lead to more harm than good. Grug
+        recommends keeping refactors relatively small and waiting until the code
+        has stabilized. Grug suggests using end-to-end tests to catch issues
+        during refactoring and highlights the potential pitfalls of introducing
+        too much abstraction, citing examples from the past.
+      </p>
+
+      <h2>Chesterton's Fence</h2>
+      <p>
+        Grug heeds the wisdom of Chesterton's Fence, advising against tearing
+        out code without understanding its purpose. Grug recommends taking the
+        time to understand the system before making significant changes,
+        emphasizing the importance of humility and respect for the existing
+        code, even if it appears imperfect.
+      </p>
+
+      <h2>Microservices</h2>
+      <p>
+        Grug questions the wisdom of introducing network calls in microservices,
+        considering it a confusing addition to the already challenging task of
+        factoring a system correctly. Grug wonders why big brains would take the
+        hardest problem and make it more complex by adding network calls.
+      </p>
+
+      <h2>Tools</h2>
+      <p>
+        Grug expresses love for tools and emphasizes their role in enhancing
+        productivity. Grug recommends investing time in learning and improving
+        tools, citing the importance of features like code completion and
+        debugging tools. Grug underscores the value of a good debugger, urging
+        new programmers to delve deeply into its features for a better
+        understanding of code and computer systems.
+      </p>
+
+      <h2>Type Systems</h2>
+      <p>
+        Grug appreciates type systems for making programming easier, especially
+        for their magic pop-up suggestions. Grug cautions against the potential
+        dangers of big-brained type system enthusiasts who focus too much on
+        correctness rather than the practical benefits of type systems. Grug
+        emphasizes the value of type systems in providing suggestions while
+        coding.
+      </p>
+
+      <h2>Expression Complexity</h2>
+      <p>
+        Grug shares an evolution in coding style, transitioning from minimizing
+        lines of code to favoring a more readable and debug-friendly approach.
+        Grug highlights the importance of breaking down complex conditional
+        expressions into simpler parts for easier debugging and understanding.
+      </p>
+
+      <h2>DRY</h2>
+      <p>
+        Grug respects the
+        <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a>
+        principle (Don't Repeat Yourself) but recommends a balanced approach,
+        acknowledging that some repeated code may be acceptable, especially if
+        it simplifies the overall structure. Grug notes a shift in concern over
+        time, with a willingness to accept some repeated code in favor of
+        simplicity.
+      </p>
+      <img class="img2" src="https://grugbrain.dev/over-time.png" alt="graph" />
+      <h2>Separation of Concerns (SoC)</h2>
+      <p>
+        Grug shares thoughts on Separation of Concerns (SoC), expressing
+        skepticism about the concept. Grug prefers the idea of "locality of
+        behavior" and argues that putting code on the thing that does the thing
+        is often clearer and more straightforward than separating concerns
+        across multiple files.
+      </p>
+
+      <h2>Closures</h2>
+      <p>
+        Grug appreciates closures for specific use cases, such as abstracting
+        operations over a collection of objects. However, Grug warns against
+        excessive use of closures, comparing them to salt, type systems, and
+        generics—small amounts go a long way, but too much can spoil things.
+      </p>
+
+      <h2>Logging</h2>
+      <p>
+        Grug is a huge fan of logging and encourages its extensive use,
+        especially in cloud deployments. Grug shares tips on effective logging,
+        including logging major logical branches within code, including request
+        IDs for spanning requests, and making log levels dynamic for better
+        control in different scenarios.
+      </p>
+
+      <h2>Concurrency</h2>
+      <p>
+        Grug admits to fearing concurrency but recommends relying on simple
+        concurrency models where possible. Grug favors the optimistic
+        concurrency model, particularly for web-related tasks, as it simplifies
+        the mental model and reduces the chances of deadlocks.
+      </p>
+
+      <h2>Optimizing</h2>
+      <p>
+        Grug discourages premature optimization and stresses the importance of
+        concrete performance profiling before diving into optimization efforts.
+        Grug warns against focusing solely on CPU performance and advocates
+        considering other factors, such as network performance, in optimization
+        efforts.
+      </p>
+
+      <h2>APIs</h2>
+      <p>
+        Grug values good APIs for their simplicity and emphasizes the importance
+        of layering APIs at different complexity levels. Grug criticizes overly
+        abstract and big-brained API designs, advocating for straightforward and
+        practical approaches that make it easy for Grugs to understand and use
+        the APIs.
+      </p>
+
+      <h2>Parsing</h2>
+      <p>
+        Grug expresses a preference for recursive descent parsing over parser
+        generator tools, citing the latter's tendency to generate convoluted and
+        hard-to-debug code. Grug provides practical advice for parsing and
+        recommends Bob Nystrom's book on Crafting Interpreters for those
+        interested in diving deeper into the topic.
+      </p>
+
+      <h2>The Visitor Pattern</h2>
+      <p>
+        Grug succinctly dismisses the Visitor Pattern as "bad," providing no
+        further elaboration. It seems Grug is not a fan.
+      </p>
+
+      <h2>Front End Development</h2>
+      <p>
+        Grug criticizes front-end development for its tendency to complicate
+        things unnecessarily. Grug advises keeping front-end complexity low,
+        avoiding excessive use of JavaScript libraries, and favoring simpler
+        approaches for better maintainability and understanding.
+      </p>
+
+      <h2>Fads</h2>
+      <p>
+        Grug urges caution when embracing new development fads, emphasizing the
+        importance of learning from history and not falling for recycled bad
+        ideas. Grug acknowledges that not all new ideas are bad but recommends a
+        healthy skepticism and critical evaluation before jumping on the latest
+        bandwagon.
+      </p>
+
+      <h2>Fear Of Looking Dumb</h2>
+      <p>
+        Grug encourages transparency and admits when something is too complex,
+        setting an example for others to do the same. Grug addresses the common
+        fear of looking dumb in the development community, reassuring young
+        Grugs that feeling like an impostor is a normal part of the programming
+        journey.
+      </p>
+
+      <h2>Impostor Syndrome</h2>
+      <p>
+        Grug acknowledges the prevalence of impostor syndrome in the development
+        field. Grug shares personal experiences and advises young Grugs not to
+        be discouraged by feelings of inadequacy, emphasizing that impostor
+        syndrome is a common aspect of a programming career.
+      </p>
+
+      <h2>Reads</h2>
+      <p>
+        Grug recommends various readings, including articles and books covering
+        topics like Worse is Better, Software Design Philosophy, and others.
+        Grug encourages the continuous pursuit of knowledge and learning from
+        the experiences of others in the field.
+      </p>
+
+      <h2>Conclusion</h2>
+      <p>
+        Grug concludes with a resounding statement: "complexity very, very bad."
+        The overarching theme throughout the compilation is the detrimental
+        impact of unnecessary complexity on codebases and the importance of
+        simplicity in software development. Grug hopes that the insights shared
+        will be helpful to fellow developers, whether they have Grug-like brains
+        or not.
+      </p>
+    </main>
+  </body>
+</html>
